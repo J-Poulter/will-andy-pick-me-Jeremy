@@ -1,6 +1,84 @@
 /* font-family: 'Open Sans', sans-serif; */
 /* font-family: 'Open Sans', sans-serif; */
+h1 {
+  width: 100%;
+  font-family: "Life Savers";
+  color: #2B4E80;
+  font-size: 3em;
+  align-content: center;
+  text-align: center;
+}
 
+body {
+
+}
+
+section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  width: 30%;
+}
+
+.interactive-area {
+  background-color: #E6ECF4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+input {
+  width: 80%;
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #2B4E80;
+}
+
+button {
+  width: 80%;
+  font-size: 1.5em;
+  color: white;
+  background-color: #2B4E80;
+}
+
+.get-answer-btn:hover {
+  background-color: #1C3455;
+}
+
+.get-answer-btn:disabled {
+  background-color: #607AA0;
+}
+
+.ball-img {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.woody-img {
+  padding-left: 100px;
+}
+
+.clear-button {
+  width: 13%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: white;
+  background-color: #DE4841;
+}
+
+.clear-button:disabled {
+  background-color: #D0CDCD;
+}
 /*
 COLORS
 H1, Get answer button, text in input field: #2B4E80;
