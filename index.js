@@ -44,3 +44,10 @@ function transferQuestion() {
   questionDisplay.innerText = '"' + textInputBox.value + '"';
   textInputBox.value = '';
 }
+
+function clearOutputs() {
+  textInputBox.value = '';
+  responseDisplay.classList.add('hidden-items');
+  questionDisplay.classList.add('hidden-items');
+  ballImg.classList.remove('hidden-items');
+}
