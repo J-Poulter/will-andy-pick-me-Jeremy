@@ -3,23 +3,19 @@
 }
 
 h1 {
-  width: 100%;
-  font-family: "Life Savers";
-  color: #2B4E80;
-  font-size: 3em;
   align-content: center;
+  color: #2B4E80;
+  font-family: "Life Savers";
+  font-size: 3em;
   text-align: center;
-}
-
-body {
-
+  width: 100%;
 }
 
 section {
-  display: flex;
-  width: 100%;
-  justify-content: center;
   align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 div {
@@ -27,27 +23,27 @@ div {
 }
 
 .interactive-area {
+  align-items: center;
   background-color: #E6ECF4;
   display: flex;
   flex-direction: column;
-  align-items: center;
   position: relative;
 }
 
 input {
-  width: 80%;
-  font-size: 1.5em;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
   color: #2B4E80;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  width: 80%;
 }
 
 button {
-  width: 80%;
-  font-size: 1.5em;
-  color: white;
   background-color: #2B4E80;
+  color: white;
+  font-size: 1.5em;
+  width: 80%;
 }
 
 .get-answer-btn:hover {
@@ -59,17 +55,17 @@ button {
 }
 
 .output-area {
-  width: 100%;
-  height: 330px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  height: 330px;
+  justify-content: center;
+  width: 100%;
 }
 
 .ball-img {
-  margin-top: 75px;
-  margin-bottom: 75px;
   align-self: center;
+  margin-bottom: 75px;
+  margin-top: 75px;
 }
 
 P {
@@ -77,13 +73,13 @@ P {
 }
 
 .question-display {
-  font-style: italic;
   font-size: 1.5em;
+  font-style: italic;
 }
 
 .response-display {
-  font-weight: bold;
   font-size: 1.5em;
+  font-weight: bold;
 }
 
 .hidden-items {
@@ -95,14 +91,14 @@ P {
 }
 
 .clear-button {
-  width: 18%;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  color: white;
   background-color: #DE4841;
+  bottom: 0;
+  color: white;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  position: absolute;
+  right: 0;
+  width: 18%;
 }
 
 .clear-button:disabled {
