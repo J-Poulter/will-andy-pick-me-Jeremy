@@ -1,5 +1,7 @@
-/* font-family: 'Open Sans', sans-serif; */
-/* font-family: 'Open Sans', sans-serif; */
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 h1 {
   width: 100%;
   font-family: "Life Savers";
@@ -56,9 +58,36 @@ button {
   background-color: #607AA0;
 }
 
+.output-area {
+  width: 100%;
+  height: 330px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .ball-img {
   margin-top: 75px;
   margin-bottom: 75px;
+  align-self: center;
+}
+
+P {
+  text-align: center;
+}
+
+.question-display {
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+.response-display {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.hidden-items {
+  display: none;
 }
 
 .woody-img {
