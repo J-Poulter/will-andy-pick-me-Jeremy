@@ -50,4 +50,5 @@ function clearOutputs() {
   responseDisplay.classList.add('hidden-items');
   questionDisplay.classList.add('hidden-items');
   ballImg.classList.remove('hidden-items');
+  clearButton.disabled = true;
 }
